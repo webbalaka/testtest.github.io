@@ -1,0 +1,561 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+.flex {
+    display: flex;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.bor {
+    border-radius: 12px;
+}
+
+.mr {
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+.mr1 {
+    margin-top: 25px;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.pad {
+    padding: 25px 25px;
+}
+
+.pad1 {
+    padding: 25px 15px;
+}
+
+.pad2 {
+    padding: 25px 50px;
+}
+
+body {
+    background: #F2F2F2;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.user {
+    width: 1050px;
+    height: 300px;
+    background-color: white;
+}
+
+.user h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4F4F4F;
+}
+
+.user p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+
+.profile {
+    width: 250px;
+    height: 250px;
+    background-image: url(https://i.ibb.co/vP4003H/rererere.jpg);
+    background-color: #333333;
+    border-radius: 12px;
+    background-position: center;
+    background-size: cover;
+}
+
+.name {
+    justify-content: space-between;
+    display: flex;
+}
+
+.userbox {
+    display: flex;
+}
+
+.about_me {
+    width: 70%;
+    padding-left: 25px;
+}
+
+.sop {
+    padding-top: 30px;
+}
+
+.bigboxes {
+    display: flex;
+    margin: 0 auto;
+    width: 1050px;
+}
+
+.bigboxes h1 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #4F4F4F;
+    margin-bottom: 10px;
+}
+
+.skill {
+    width: 425px;
+    height: 300px;
+    background-color: white;
+}
+
+.hobbies {
+    width: 425px;
+    height: 850px;
+    background-color: white;
+}
+
+.blog {
+    width: 600px;
+    height: 650px;
+    background-color: white;
+}
+
+.education {
+    width: 600px;
+    height: 500px;
+    background-color: white;
+}
+
+
+.skill h2 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    color: #4F4F4F;
+    margin-bottom: 15px;
+}
+
+.skillbar {
+    width: 375px;
+}
+
+.skill_in_bar,
+.skill_out_bar {
+    height: 20px;
+    width: 80%;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill_out_bar h3 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    color: #4F4F4F;
+    text-align: right;
+}
+
+.skill_out_bar {
+    background-color: #C4C4C4;
+}
+
+.skill_in_bar {
+    animation: fillbar 1s forwards;
+    transform: scaleX(0);
+    transform-origin: 0 0;
+}
+
+.skill_in_bar-90 {
+    width: 90%;
+    background-color: #F26B38;
+}
+
+.skill_in_bar-80-1 {
+    width: 80%;
+    background-color: #2F9599;
+}
+
+.skill_in_bar-80-2 {
+    width: 80%;
+    background-color: #363636;
+}
+
+.skill_in_bar-70-1 {
+    width: 70%;
+    background-color: #F7DB4F;
+}
+
+.skill_in_bar-70-2 {
+    width: 70%;
+    background-color: #A7226E;
+}
+
+.skill_in_bar-60 {
+    width: 60%;
+    background-color: #EC2049;
+}
+
+
+@keyframes fillbar {
+    to {
+        transform: scaleX(1);
+    }
+}
+
+.hobbies h2 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 22px;
+    color: #333333;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.hob1 {
+    width: 380px;
+    height: 200px;
+    background-image: url(https://img.freepik.com/free-photo/close-up-hands-holding-open-book_23-2148882726.jpg?t=st=1658323025~exp=1658323625~hmac=63bfce7639e8358fcdc1ff25ae2d567c324b089a48e7407e77e925e145ffed1c&w=1060);
+    border-radius: 12px;
+    background-position: center;
+    background-size: cover;
+}
+
+.hob2 {
+    width: 380px;
+    height: 200px;
+    background-image: url(https://www.learndutch.org/wp-content/uploads/2019/02/03-Listen-music-to-learn-Dutch-4-reasons-why-you-should-listen-to-Dutch-music-1200x630.jpg);
+    border-radius: 12px;
+    background-position: center top;
+    background-size: cover;
+}
+
+.hob3 {
+    width: 380px;
+    height: 200px;
+    background-image: url(https://assets.entrepreneur.com/content/3x2/2000/20160628101609-Coding.jpeg);
+    border-radius: 12px;
+    background-position: center top;
+    background-size: cover;
+}
+
+.b1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog h1 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    color: #333333;
+    width: 20%;
+}
+
+.blog h2 {
+    margin-top: 30px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    color: #2F80ED;
+
+}
+
+.blog p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    color: #828282;
+    margin-bottom: 20px;
+}
+
+.blogpic {
+    width: 380px;
+    height: 300px;
+    background-image: url(https://c.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+
+
+.card h2 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    height: 80px;
+}
+
+.card p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    bottom: 10px;
+}
+
+.card1 {
+    width: 170px;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.card2 {
+    width: 170px;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.card3 {
+    width: 170px;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.school1 {
+    width: 125px;
+    height: 125px;
+    background-image: url(https://anubanmhk.ac.th/wp-content/uploads/2021/06/cropped-logo-150x150.jpg);
+    background-size: cover;
+    margin: 20px auto;
+}
+
+.school2 {
+    width: 125px;
+    height: 125px;
+    background-image: url(https://spk.activities-club.com/data/img/logo.png);
+    background-size: cover;
+    margin: 20px auto;
+}
+
+.school3 {
+    width: 125px;
+    height: 125px;
+    background-image: url(https://shorturl.asia/siRtg);
+    background-size: cover;
+    margin: 20px auto;
+}
+
+
+.certificate {
+    margin: 25px auto;
+    width: 1050px;
+}
+
+.certificate h1 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #4F4F4F;
+    margin-bottom: 10px;
+}
+
+.cerA {
+    background-color: white;
+    width: 45 0px;
+    height: 360px;
+    border-radius: 12px;
+}
+
+.cerB {
+    background-color: white;
+    width: 540px;
+    height: 360px;
+    border-radius: 12px;
+}
+
+.cer h2 {
+    margin-top: 50px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    color: #333333;
+}
+
+.cer h3 {
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+}
+
+.cer p {
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    color: #828282;
+}
+
+.cer1 {
+    background-color: white;
+    width: 1050px;
+    height: 1250px;
+    border-radius: 12px;
+}
+
+.cer2 {
+    background-color: white;
+    width: 1050px;
+    height: 1150px;
+    border-radius: 12px;
+}
+
+.cer3 {
+    background-color: white;
+    width: 1050px;
+    height: 1300px;
+    border-radius: 12px;
+}
+
+.cerpic1 {
+    width: 800px;
+    height: 500px;
+    background-image: url(https://drive.google.com/uc?export=view&id=1kJUcNWEyxN3-Y0HQoxgHzS7Gp31PaDMa);
+    background-position: center;
+    background-size: cover;
+}
+
+.cerpic2 {
+    width: 800px;
+    height: 500px;
+    background-image: url(https://drive.google.com/uc?export=view&id=1o_2QwQgR9Fa7LXW_iFozS4PxF5tp7eK_);
+    background-position: center right;
+    background-size: cover;
+}
+
+.cerpic3 {
+    width: 800px;
+    height: 500px;
+    background-image: url(https://drive.google.com/uc?export=view&id=11TxHE-JuRNVsuWLTSSfJVJ73pJsO5D4S);
+    background-position: center right;
+    background-size: cover;
+}
+
+.underCer {
+    display: flex; 
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.cerpic1_1 {
+    width: 450px;
+    height: 350px;
+    background-image: url(https://i.ibb.co/f8BTRw2/i01-292505017-492102282676059-2921548386262537910-n-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.cerpic1_2 {
+    width: 450px;
+    height: 350px;
+    background-image: url(https://drive.google.com/uc?export=view&id=1TK2lALbi9Fk1uWMoKNvtnj8Fs1_HJJ9w);
+    background-position: center;
+    background-size: cover;
+}
+
+.cerpic2_1 {
+    width: 450px;
+    height: 350px;
+    background-image: url(https://drive.google.com/uc?export=view&id=1XnrR7Nv6lzpSwMxz_Ntf-Veqxpks1MOa);
+    background-position: center;
+    background-size: cover;
+}
+
+.cerpic2_2 {
+    width: 450px;
+    height: 350px;
+    background-image: url(https://drive.google.com/uc?export=view&id=1xqViXbO8RsYLpodKTVIPoVXpYTVzPKOf);
+    background-position: center;
+    background-size: cover;
+}
+
+.cerpic3_1 {
+    width: 400px;
+    height: 300px;
+    background-image: url(https://drive.google.com/uc?export=view&id=12mASKNHNWij3uGqr-aT40VB97IVkNG_y);
+    background-position: center;
+    background-size: cover;
+}
+
+.cerpic3_2 {
+    width: 450px;
+    height: 350px;
+    background-image: url(https://drive.google.com/uc?export=view&id=1p7GiOe4JrvjFzW_OXUl2rHAJsURjJ4BV);
+    background-position: center;
+    background-size: cover;
+}
+
+.cerpic3_3 {
+    width: 450px;
+    height: 350px;
+    background-image: url(https://drive.google.com/uc?export=view&id=1Xn5UA2dJQqj8BzY6w1GNLoIJbKAVGFfo);
+    background-position: center;
+    background-size: cover;
+}
+
+.cerpic4 {
+    width: 400px;
+    height: 282.5px;
+    background-image: url(https://drive.google.com/uc?export=view&id=1VBXUVTrU8zGU8H2DiVRAh5x3JfzCSNYN);
+    background-position: center;
+    background-size: cover;
+    border: #363636 1px solid;
+    border-radius: 12px;
+}
+
+
+
+.cerpic5 {
+    width: 400px;
+    height: 282.5px;
+    background-image: url(https://drive.google.com/uc?export=view&id=1q4cflECbHPg1XvoLi70RiQTEIF6Y5SEu);
+    background-position: center;
+    background-size: cover;
+    border: #363636 1px solid;
+    border-radius: 12px;
+}
+
+
+
+
+.ex {
+    width: 300px;
+    height: 200px;
+    background-image: url(https://c.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif);
+    background-position: center;
+    background-size: cover;
+}
+
